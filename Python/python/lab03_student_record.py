@@ -1,0 +1,18 @@
+
+
+print("=" * 40)
+print("       STUDENT RECORD DISPLAY")
+print("=" * 40)
+
+
+name = input("Enter Student Name: ")
+age = int(input("Enter Age: "))
+marks = float(input("Enter Marks: "))
+
+
+print("\n" + "-" * 40)
+print("Student Details:")
+print(f"  Name  : {name}")
+print(f"  Age   : {age}")
+print(f"  Marks : {marks}")
+print("-" * 40)
